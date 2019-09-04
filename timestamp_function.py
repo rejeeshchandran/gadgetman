@@ -2,7 +2,7 @@ from datetime import datetime
 from time import gmtime, strftime
 
 
-de get_current_gmt_time():
+def get_current_gmt_time():
     """
     This functions gives the current utc time.
     Format of out - 2019-08-29T10:55:29.Z where UTC is 0.
